@@ -124,4 +124,4 @@ voice_assistant/
 
 ## Author
 
-**Your Name** – Portfolio-ready project
+Wasim Akaram
