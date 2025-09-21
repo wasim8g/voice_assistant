@@ -19,3 +19,11 @@ def process_command(command):
         webbrowser.open(f"https://www.google.com/search?q={search_query}")
     else:
         speak("Sorry, I did not understand that command")
+def process_command(command):
+    # Existing commands...
+    
+    if "stop" in command or "exit" in command or "quit" in command:
+        speak("Shutting down. Goodbye!")
+        exit()  # stops the assistant
+
+    # Other commands like open YouTube, AI response, etc.
